@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" version="3.8" group="revars" method="upgrade">
     <name>PLG_REVARSSCLON</name>
-    <creationDate>06.06.2020</creationDate>
+    <creationDate>06.07.2021</creationDate>
     <author>Cymbal</author>
     <authorEmail>cymbal@delo-design.ru</authorEmail>
     <authorUrl>https://delo-design.ru</authorUrl>
