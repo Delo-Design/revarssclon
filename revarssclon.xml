@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.8" group="revars" method="upgrade">
+    <name>PLG_REVARSSCLON</name>
+    <creationDate>06.06.2020</creationDate>
+    <author>Cymbal</author>
+    <authorEmail>cymbal@delo-design.ru</authorEmail>
+    <authorUrl>https://delo-design.ru</authorUrl>
+    <copyright>Copyright © 2020 Delo Design. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0</version>
+    <description>PLG_REVARSSCLON_XML_DESCRIPTION</description>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_revars_revarssclon.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_revars_revarssclon.sys.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.plg_revars_revarssclon.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.plg_revars_revarssclon.sys.ini</language>
+    </languages>
+
+    <files>
+        <filename plugin="revarssclon">revarssclon.php</filename>
+        <folder>language</folder>
+    </files>
+
+    <fields name="params">
+        <fieldset name="basic">
+            <field
+                    name="subdomains"
+                    type="subform"
+                    label="PLG_REVARSSCLON_CONFIG_SCLONS_LABEL"
+                    multiple="true"
+            >
+                <form>
+                    <field
+                            name="name"
+                            type="text"
+                            label="PLG_REVARSSCLON_CONFIG_SCLONS_NAME_LABEL"
+                    />
+                    <field
+                            name="im"
+                            type="text"
+                            label="PLG_REVARSSCLON_CONFIG_SCLONS_IM_LABEL"
+                    />
+                    <field
+                            name="rod"
+                            type="text"
+                            label="PLG_REVARSSCLON_CONFIG_SCLONS_ROD_LABEL"
+                    />
+                    <field
+                            name="dat"
+                            type="text"
+                            label="PLG_REVARSSCLON_CONFIG_SCLONS_DAT_LABEL"
+                    />
+                    <field
+                            name="vin"
+                            type="text"
+                            label="PLG_REVARSSCLON_CONFIG_SCLONS_VIN_LABEL"
+                    />
+                    <field
+                            name="tv"
+                            type="text"
+                            label="PLG_REVARSSCLON_CONFIG_SCLONS_TV_LABEL"
+                    />
+                    <field
+                            name="pr"
+                            type="text"
+                            label="PLG_REVARSSCLON_CONFIG_SCLONS_PR_LABEL"
+                    />
+                </form>
+            </field>
+        </fieldset>
+    </fields>
+</extension>
