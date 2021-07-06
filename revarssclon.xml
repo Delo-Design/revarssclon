@@ -26,7 +26,7 @@
         <fields name="params">
         <fieldset name="basic">
             <field
-                    name="subdomains"
+                    name="sclons"
                     type="subform"
                     label="PLG_REVARSSCLON_CONFIG_SCLONS_LABEL"
                     layout="joomla.form.field.subform.repeatable-table"
