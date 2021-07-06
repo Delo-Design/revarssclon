@@ -22,7 +22,8 @@
         <folder>language</folder>
     </files>
 
-    <fields name="params">
+    <config>
+        <fields name="params">
         <fieldset name="basic">
             <field
                     name="subdomains"
@@ -70,4 +71,6 @@
             </field>
         </fieldset>
     </fields>
+    </config>
+
 </extension>
