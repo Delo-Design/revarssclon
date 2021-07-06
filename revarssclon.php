@@ -44,7 +44,7 @@ class plgRevarsRevarssclon extends CMSPlugin
 			foreach ($columns as $column)
 			{
 				$output[] = (object) [
-					'variable' => '{VAR_' . strtoupper($sclon->name) . '_' . strtoupper($column) . '}',
+					'variable' => '{VAR_SCLONS_' . strtoupper($sclon->name) . '_' . strtoupper($column) . '}',
 					'value'    => $sclon->$column ?? ''
 				];
 			}
